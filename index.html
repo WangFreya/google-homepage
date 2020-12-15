@@ -4,21 +4,63 @@
         <style>
             #logo {
                 position: relative;
-                top: 110px;
+                top: 160px;
                 left: 350px;
             }
 
             #search {
                 position:relative;
-                top: 175px;
-                left: 125px;
+                top: 235px;
+                left: 120px;
             }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            li {
+                display: inline;
+                padding: 10px 10px;
+            }
+
+            .navbar {
+                overflow: hidden;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+
+            .navbar a {
+                float: left;
+                display: block;
+                text-align: center;
+                padding: 10px 10px;
+                text-decoration: none;
+
+            }
+                
         </style>
     </head>
     <body>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#store">Store</a></li>
+            <li><a href="#Gmail">Gmail</a></li>
+            <li><a href="#images">Images</a></li>
+          </ul>
         <div class="searchbar">
             <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             <input id="search" type="text" placeholder="Search">
-        </div>    
+        </div> 
+        <div class="navbar">
+            <a href="#advertising">Advertising</a>
+            <a href="#business">Business</a>
+            <a href="#howsearchworks">How Search Works</a>
+            <a href="#privacy">Privacy</a>
+            <a href="#terms">Terms</a>
+            <a href="#settings">Settings</a>
+        </div>  
     </body>
 </html> 
